@@ -1,0 +1,23 @@
+const openWebmenuBtn = document.getElementById("openModal");
+const closeWebmenuBtn = document.getElementById("closeWebmenu");
+const webmenu = document.getElementById("nav-menu-popup");
+
+openWebmenuBtn.addEventListener("click", () => {
+    webmenu.classList.add("open");
+});
+
+closeWebmenuBtn.addEventListener("click", () => {
+    webmenu.classList.remove("open");
+});
+
+const openPopupBtn = document.getElementById("button-PYfcXVI2GH");
+const closePopupBtn = document.getElementById("closeModal");
+const popupModal = document.getElementById("modal");
+
+openPopupBtn.addEventListener("click", () => {
+    popupModal.classList.add("open");
+});
+
+closePopupBtn.addEventListener("click", () => {
+    popupModal.classList.remove("open");
+});
